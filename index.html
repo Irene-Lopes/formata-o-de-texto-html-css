@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Front-End</title>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #b3cce2, #D9CCC1);
+        }
+
+        h1, h2 {
+            color: #D9CCC1;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            background: #005eb0;
+            padding: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.0rem;
+            color: #024059;
+        }
+
+        blockquote {
+            font-family: "Tilt Neon", sans-serif;
+            font-size: 1.0rem;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        blockquote cite {
+            text-align: right;
+            color: darkslategray;
+            font-style: italic;
+        }
+
+        .post-date {
+            text-align: left;
+            color: darkslategray;
+            font-style: italic;
+            font-size: 0.8rem;
+        }
+
+        /* Estilo para o texto riscado na diagonal */
+        .diagonal-strike {
+            position: relative;
+        }
+
+        .diagonal-strike::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #024059;
+        }
+    </style>
+</head>
+<body>
+    <h1>WEB Front-End</h1>
+    <h2>Texto pré-formatado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula ex vitae lorem gravida auctor.</p>
+    <blockquote class="diagonal-strike">
+        <p>Este é um exemplo de texto com formatação <span style="text-decoration: line-through;">riscada na diagonal</span>.</p>
+        <cite>Autor da postagem</cite>
+        <span class="post-date">8 de setembro de 2023</span>
+    </blockquote>
+</body>
+</html>
