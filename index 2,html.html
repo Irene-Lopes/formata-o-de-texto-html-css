@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Semelhante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background: linear-gradient(to bottom, #b3cce2, #D9CCC1);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            font-size: 3rem;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            color: #D9CCC1;
+        }
+
+        h1 {
+            background: #005eb0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.0rem;
+            color: #024059;
+        }
+
+        .motivational-quote {
+            font-family: "Tilt Neon", sans-serif;
+            font-size: 1.0rem;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .author {
+            text-align: right;
+            color: darkslategray;
+            font-style: italic;
+        }
+
+        .date {
+            text-align: left;
+            color: darkslategray;
+            font-size: 0.8rem;
+            font-style: italic;
+        }
+
+        /* Estilo para texto riscado diagonalmente */
+        .strike-diagonal {
+            position: relative;
+        }
+
+        .strike-diagonal:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #000;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>WEB Front-End</h1>
+    <p>Texto pré-formatado</p>
+    <p class="date">10/03/2023</p>
+    <p>Segue um exemplo de texto pré-formatado usando a linguagem de programação python:</p>
+    <div class="strike-diagonal">
+        <pre>
+def imprimir_padrao(num_linhas):
+    for i in range(num_linhas):
+        for num_colunas in range(num_linhas-i):
+            print("*", end="")
+        print()
+        </pre>
+    </div>
+
+    <h2>Texto motivacional</h2>
+    <p class="date">09/03/2023</p>
+    <div class="motivational-quote">
+        <p>"Oportunidades"</p>
+        <p>Você já parou para pensar que pode estar deixando oportunidades incríveis passarem por você sem perceber? Muitas vezes, temos medo de sair da nossa zona de conforto e arriscar. Mas a verdade é que a única maneira de alcançar nossos sonhos é através da ação. Não espere que as oportunidades caiam em seu colo - vá atrás delas com tudo o que tem. Não deixe que o medo o paralise. Em vez disso, transforme-o em combustível para impulsionar você em direção aos seus objetivos. Lembre-se sempre: você é capaz de grandes coisas. Não se subestime. Acredite em si mesmo e em suas habilidades. E, acima de tudo, nunca desista. As oportunidades estão lá fora, apenas esperando por você. É hora de pegá-las!</p>
+        <p>Les Brown</p>
+        <p class="author">Por ely.miranda</p>
+    </div>
+
+    <h2>Hello world!</h2>
+    <p class="date">09/03/2023</p>
+    <p>Um Hello World inusitado</p>
+    <p class="author">Por ely.miranda</p>
+
+    <h2>Texto riscado</h2>
+    <p class="date">08/03/2023</p>
+    <p class="strike-diagonal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis aliquid voluptatem, quidem quia nulla quos enim. Beatae odit mollitia delectus asperiores deleniti eum quasi assumenda adipisci, illum nisi laboriosam!</p>
+    <p class="author">Por ely.miranda</p>
+</body>
+</html>
